@@ -1,0 +1,397 @@
+@media screen and (max-width: 1024px) {
+    .feature {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .feature__icon {
+        margin-bottom: 10px;
+    }
+
+    .feature__title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .achievement {
+        padding: 20px 10px;
+        margin: 10px;
+    }
+
+    .achievement__number {
+        font-size: 32px;
+    }
+
+    .achievement__description {
+        font-size: 14px;
+    }
+
+    .method {
+        margin: 10px;
+    }
+
+    .method__content {
+        padding: 20px 14px 20px 20px;
+    }
+    
+    .innovation__video {
+        margin-right: 60px;
+    }
+
+    .innovation__title {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .innovation__subtitle {
+        margin-bottom: 30px;
+    }
+
+    .sponsors__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponsors__row {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+
+    .sponsors__row:last-child {
+        margin-bottom: 0;
+    }
+
+    .subscribe__wrapper {
+        padding: 0;
+    }
+
+    .subscribe.box {
+        padding: 0;
+    }
+
+    .subscribe__item {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .subscribe__input {
+        width: 70%;
+    }
+
+    .subscribe__description {
+        text-align: center;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    .conracts__wrapper {
+        padding: 75px 0 130px;
+    }
+
+    .contacts__list {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contact {
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+    .contact:last-child {
+        margin-bottom: 0;
+
+    }
+
+    .contacts__subtitle {
+        margin-bottom: 60px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer__links-row {
+        justify-content: flex-start;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .intro__title {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 700;
+        line-height: 57px;
+        margin-bottom: 40px;
+    }
+
+    .intro__subtitle {
+        height: auto;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .intro__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro {
+        align-items: center;
+        max-width: none;
+    }
+
+    .intro__buttons a {
+        margin: 0 0 30px 0;
+    }
+
+    .intro__buttons a:last-child {
+        margin-bottom: 0;
+    }
+
+    .header__features {
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+    }
+
+    .feature {
+        margin: 15px 0;
+        padding: 40px 10px 35px 40px;
+        width: 100%;
+    }
+
+    .feature__title {
+        width: 90%;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .intro__wrapper {
+        padding-bottom: 200px;
+    }
+
+    .achievements__wrapper {
+        padding: 98px 0 70px;
+    }
+
+    .achievements__list {
+        flex-wrap: wrap;
+    }
+
+    .achievements__title {
+        width: 90%;
+    }
+
+    .achievements__subtitle {
+        width: 70%;
+    }
+
+    .achievement {
+        width: 50%;
+        padding: 30px 20px;
+        margin: 15px;
+    }
+
+    .achievement__number {
+        font-size: 40px;
+    }
+
+    .achievement__description {
+        font-size: 16px;
+    }
+
+    .methods__wrapper {
+        padding: 98px 0 106px;
+    }
+
+    .methods__list {
+        flex-wrap: wrap;
+    }
+
+    .method {
+        width: 50%;
+        margin: 15px;
+    }
+
+    .method__content {
+        padding: 30px 24px 30px 30px;
+    }
+
+    .methods__title {
+        width: 90%;
+    }
+
+    .methods__subtitle {
+        width: 70%;
+    }
+
+    .innovations__title {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .innovations__subtitle {
+        width: 70%;
+        margin-bottom: 100px;
+    }
+
+    .innovation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .innovation__title {
+        width: 90%;
+        text-align: center;
+        font-size: 40px;
+        line-height: 57px;
+    }
+
+    .innovation__subtitle {
+        width: 70%;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .innovation__video {
+        min-width: 333px;
+        height: 442px;
+        margin: 0 0 72px 0;
+    }
+
+    .innovation__content {
+        width: 90%;
+        align-items: center;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .decision {
+        flex-direction: column;
+    }
+
+    .decision__title {
+        text-align: center;
+    }
+
+    .decision__description {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 590px) {
+    .header__nav {
+        display: none;
+    }
+
+    .logo {
+        margin-right: 0;
+    }
+
+    .header {
+        justify-content: space-between;
+        background: #F6F6F6;
+    }
+
+    .header__buttons {
+        display: block;
+    }
+
+    .achievement {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .method {
+        width: 100%;
+        margin: 20px;
+    }
+
+    .sponsors__wrapper {
+        padding: 80px 0 85px;
+    }
+
+    .sponsors__row {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .sponsors__row:last-child {
+        margin-bottom: 0;
+    }
+
+    .sponsor {
+        margin-bottom: 60px;
+    }
+
+    .sponsors__row {
+        margin-bottom: 0;
+    }
+
+    .subscribe__input {
+        width: 100%;
+    }
+
+    .footer__links-row {
+        flex-direction: column;
+        margin-bottom: 0;
+        align-items: center;
+        
+    }
+
+    .footer__links {
+        margin: 0 0 30px 0;
+        width: 70%;
+    }
+
+    .rights__wrapper {
+        padding: 25px 0 55px;
+    }
+
+    .rights {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rights__text {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .social__icons svg {
+        margin: 0 10px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .header__search {
+        margin-right: 10px;
+    }
+    
+    .header__basket {
+        margin-right: 10px;
+    }
+
+    .subscribe__email {
+        padding: 8px 12px;
+    }
+    
+    .subscribe__button {
+        padding: 8px 12px;
+    }
+}
