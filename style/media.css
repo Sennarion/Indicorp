@@ -1,7 +1,6 @@
 @media screen and (max-width: 1024px) {
     .feature {
         padding: 20px;
-        margin: 10px;
     }
 
     .feature__icon {
@@ -15,7 +14,6 @@
 
     .achievement {
         padding: 20px 10px;
-        margin: 10px;
     }
 
     .achievement__number {
@@ -24,10 +22,6 @@
 
     .achievement__description {
         font-size: 14px;
-    }
-
-    .method {
-        margin: 10px;
     }
 
     .method__content {
@@ -48,17 +42,12 @@
     }
 
     .sponsors__list {
-        flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
     }
 
-    .sponsors__row {
-        width: 80%;
-        margin-bottom: 60px;
-    }
-
-    .sponsors__row:last-child {
-        margin-bottom: 0;
+    .sponsor {
+        width: 33.33333%;
+        margin: 20px 0;
     }
 
     .subscribe__wrapper {
@@ -107,13 +96,15 @@
         margin-bottom: 60px;
     }
 
-    .footer {
-        flex-direction: column;
+    .footer__wrapper {
+        padding: 50px 0 30px 0;
     }
 
-    .footer__links-row {
-        justify-content: flex-start;
-        width: 100%;
+    .footer__links-list {
+        flex-wrap: wrap;
+    }
+
+    .footer__links {
         margin-bottom: 30px;
     }
     
@@ -185,6 +176,7 @@
 
     .achievements__list {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .achievements__title {
@@ -215,6 +207,7 @@
 
     .methods__list {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .method {
@@ -325,20 +318,12 @@
         padding: 80px 0 85px;
     }
 
-    .sponsors__row {
-        flex-direction: column;
-        width: 80%;
-    }
-
-    .sponsors__row:last-child {
-        margin-bottom: 0;
-    }
-
     .sponsor {
-        margin-bottom: 60px;
+        margin: 0 0 60px 0;
+        width: 100%;
     }
 
-    .sponsors__row {
+    .sponsor:last-child {
         margin-bottom: 0;
     }
 
@@ -346,16 +331,13 @@
         width: 100%;
     }
 
-    .footer__links-row {
+    .footer__links-list {
         flex-direction: column;
-        margin-bottom: 0;
-        align-items: center;
-        
     }
 
-    .footer__links {
-        margin: 0 0 30px 0;
-        width: 70%;
+    .footer {
+        display: flex;
+        justify-content: center;
     }
 
     .rights__wrapper {
@@ -385,6 +367,33 @@
     
     .header__basket {
         margin-right: 10px;
+    }
+
+    .feature {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .feature__icon {
+        margin-bottom: 10px;
+    }
+
+    .feature__title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .achievement {
+        padding: 20px 10px;
+        margin: 10px;
+    }
+
+    .achievement__number {
+        font-size: 32px;
+    }
+
+    .achievement__description {
+        font-size: 14px;
     }
 
     .subscribe__email {
