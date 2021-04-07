@@ -487,6 +487,10 @@
 	border-radius: 50%;
 }
 
+.play__button:hover {
+	background: #16697A;	
+}
+
 .play__icon {
 	width: 0;
     height: 0;
@@ -544,6 +548,10 @@
 	line-height: 24px;
 	font-weight: 600;	
 	color: #737373;
+	max-width: 220px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .sponsors__wrapper {
@@ -623,6 +631,10 @@
 	border-bottom-right-radius: 5px;
 }
 
+.subscribe__button:hover {
+	background: #ff990a;
+}
+
 .conracts__wrapper {
 	padding: 80px 0 148px;
 	background: #F3F3F3;
@@ -671,7 +683,7 @@
 	padding: 80px 0;
 }
 
-.contact svg {
+.contact img {
 	margin-bottom: 15px;
 }
 
@@ -823,15 +835,15 @@
 }
 
 .a-call::before {
-	content: url(../svg/call.svg);
+	content: url(../img/svg/bx_bx-phone.svg);
 }
 
 .a-location::before {
-	content: url(../svg/location.svg);
+	content: url(../img/svg/bx_bx-map.svg);
 }
 
 .a-telegram::before {
-	content: url(../svg/telegram.svg);
+	content: url(../img/svg/carbon_send-alt.svg);
 }
 
 
@@ -861,4 +873,8 @@
 .social__icons a {
 	display: inline-block;
 	margin-left: 20px;
+}
+
+.social__icons a:first-child {
+	margin-left: 0;
 }
