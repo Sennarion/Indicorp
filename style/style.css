@@ -19,6 +19,8 @@
 	padding: 0 36px;
 }
 
+/* INTRO */
+
 .intro__wrapper {
 	background: url(../img/cover.jpg) #EFF3F2 no-repeat center center;
 	background-size: cover;
@@ -182,7 +184,7 @@
 	display: flex;
 	flex-direction: column;
 	max-width: 510px;
-	padding: 90px 0 30px;
+	padding: 80px 0 46px;
 }
 
 .intro__title {
@@ -195,7 +197,7 @@
 }
 
 .intro__subtitle {
-	height: 60px;
+	max-height: 60px;
 	overflow: hidden;
 	font-size: 20px;
 	font-weight: 500;
@@ -246,7 +248,6 @@
 .header__features {
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: nowrap;
 	position: relative;
 	bottom: -34px;
 }
@@ -288,6 +289,8 @@
 	max-width: 225px;
 }
 
+/* ACHIEVMENTS */
+
 .achievements__wrapper {
 	background: #FAFAFA;
 	padding: 211px 0 80px;
@@ -299,23 +302,27 @@
 	align-items: center;
 }
 
-.achievements__title {
+.box__title {
+	width: 50%;
 	text-align: center;
 	font-size: 40px;
 	line-height: 57px;
 	font-weight: 700;
 	color: #252B42;
-	text-transform: uppercase;
 	margin-bottom: 10px;
 }
 
-.achievements__subtitle {
+.title__uppercase {
+	text-transform: uppercase;
+}
+
+.box__subtitle {
 	text-align: center;
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 500;
 	color: #737373;
-	max-width: 510px;
+	width: 60%;
 	margin-bottom: 50px;
 }
 
@@ -359,34 +366,17 @@
 	color: #737373;
 }
 
+/* METHODS */
+
 .methods__wrapper {
 	background: #FAFAFA;
-	padding: 125px 0 81px;
+	padding: 125px 0 80px;
 }
 
 .methods {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.methods__title {
-	text-align: center;
-	font-size: 40px;
-	line-height: 57px;
-	font-weight: 700;
-	color: #252B42;
-	margin-bottom: 10px;
-}
-
-.methods__subtitle {
-	text-align: center;
-	font-size: 14px;
-	line-height: 20px;
-	font-weight: 500;
-	color: #737373;
-	max-width: 470px;
-	margin-bottom: 45px;
 }
 
 .methods__list {
@@ -433,6 +423,8 @@
 	width: 100%;
 }
 
+/* INNOVATIONS */
+
 .innovations__wrapper {
 	background: #ffff;
 	padding: 100px 0;
@@ -442,26 +434,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.innovations__title {
-	max-width: 470px;
-	text-align: center;
-	font-size: 40px;
-	line-height: 57px;
-	font-weight: 700;
-	color: #252B42;
-	margin-bottom: 15px;
-}
-
-.innovations__subtitle {
-	text-align: center;
-	font-size: 14px;
-	line-height: 20px;
-	font-weight: 500;
-	color: #737373;
-	max-width: 510px;
-	margin-bottom: 100px;
 }
 
 .innovation {
@@ -507,19 +479,13 @@
 }
 
 .innovation__title {
-	font-size: 40px;
-	line-height: 57px;
-	font-weight: 700;
-	color: #252B42;
-	margin-bottom: 10px;
+	text-align: left;
+	width: 100%;
 }
 
 .innovation__subtitle {
-	font-size: 14px;
-	line-height: 20px;
-	font-weight: 500;
-	color: #737373;
-	margin-bottom: 50px;
+	text-align: left;
+	width: 100%;
 }
 
 .innovation__item {
@@ -554,8 +520,10 @@
 	text-overflow: ellipsis;
 }
 
+/* SPONSORS */
+
 .sponsors__wrapper {
-	padding: 50px 0 50px;
+	padding: 50px 0;
 	background: #FAFAFA;
 }
 
@@ -570,6 +538,8 @@
 	display: flex;
 	justify-content: center;
 }
+
+/* SUBSCRIBE */
 
 .subscribe__wrapper {
 	padding: 20px 0;
@@ -635,7 +605,9 @@
 	background: #ff990a;
 }
 
-.conracts__wrapper {
+/* CONTACTS */
+
+.contacts__wrapper {
 	padding: 80px 0 148px;
 	background: #F3F3F3;
 }
@@ -644,25 +616,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.contacts__title {
-	font-size: 40px;
-	line-height: 57px;
-	font-weight: 700;
-	color: #252B42;
-	margin-bottom: 10px;
-	text-align: center;
-}
-
-.contacts__subtitle {
-	width: 60%;
-	font-size: 14px;
-	line-height: 20px;
-	font-weight: 500;
-	color: #737373;
-	margin-bottom: 80px;
-	text-align: center;
 }
 
 .contacts__list {
@@ -676,6 +629,7 @@
 	background: #ffff;
 	text-align: center;
 	width: 33.33333%;
+	max-width: 328px;
 }
 
 .location {
@@ -741,6 +695,8 @@
 	color: #252B42;
 }
 
+/* DECISION */
+
 .decision__wrapper {
 	padding: 40px 0;
 	background: #FAFAFA;
@@ -753,6 +709,7 @@
 }
 
 .decision__title {
+	text-align: center;
 	font-size: 24px;
 	line-height: 32px;
 	font-weight: 700;
@@ -761,6 +718,7 @@
 }
 
 .decision__description {
+	text-align: center;
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 500;
@@ -782,6 +740,8 @@
 .decision__button:hover {
 	box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
+
+/* FOOTER */
 
 .footer__wrapper {
 	padding: 50px 0;
@@ -846,6 +806,7 @@
 	content: url(../img/svg/carbon_send-alt.svg);
 }
 
+/* RIGHTS */
 
 .rights__wrapper {
 	padding: 25px 0;
@@ -873,8 +834,4 @@
 .social__icons a {
 	display: inline-block;
 	margin-left: 20px;
-}
-
-.social__icons a:first-child {
-	margin-left: 0;
 }

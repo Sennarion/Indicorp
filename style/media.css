@@ -32,15 +32,6 @@
         margin-right: 60px;
     }
 
-    .innovation__title {
-        font-size: 30px;
-        line-height: 37px;
-    }
-
-    .innovation__subtitle {
-        margin-bottom: 30px;
-    }
-
     .sponsors__list {
         flex-wrap: wrap;
     }
@@ -70,7 +61,7 @@
     .subscribe__description {
         text-align: center;
         margin-bottom: 30px;
-        width: 80%;
+        width: 100%;
     }
 
     .conracts__wrapper {
@@ -92,10 +83,6 @@
 
     }
 
-    .contacts__subtitle {
-        margin-bottom: 60px;
-    }
-
     .footer__wrapper {
         padding: 50px 0 30px 0;
     }
@@ -112,9 +99,21 @@
 
 
 @media screen and (max-width: 768px) {
+    .intro__wrapper {
+        background: url(../img/cover-mobile.jpg) #EFF3F2 no-repeat center center;
+        background-size: cover;
+    }
+
+    .box__title {
+        width: 100%;
+    }
+
+    .box__subtitle {
+        width: 100%;
+    }
+
     .intro__title {
         width: 90%;
-        margin: 0 auto;
         font-size: 40px;
         text-align: center;
         font-weight: 700;
@@ -179,14 +178,6 @@
         justify-content: center;
     }
 
-    .achievements__title {
-        width: 90%;
-    }
-
-    .achievements__subtitle {
-        width: 70%;
-    }
-
     .achievement {
         width: 50%;
         padding: 30px 20px;
@@ -219,43 +210,26 @@
         padding: 30px 24px 30px 30px;
     }
 
-    .methods__title {
-        width: 90%;
-    }
-
-    .methods__subtitle {
-        width: 70%;
-    }
-
-    .innovations__title {
-        width: 90%;
-        margin-bottom: 10px;
-    }
-
-    .innovations__subtitle {
-        width: 70%;
-        margin-bottom: 100px;
-    }
-
     .innovation {
         flex-direction: column;
         align-items: center;
     }
 
     .innovation__title {
-        width: 90%;
+        width: 100%;
         text-align: center;
         font-size: 40px;
         line-height: 57px;
     }
 
     .innovation__subtitle {
-        width: 70%;
+        width: 100%;
         margin-bottom: 50px;
         text-align: center;
     }
 
     .innovation__video {
+        width: 100%;
         min-width: 333px;
         height: 442px;
         margin: 0 0 72px 0;
@@ -274,12 +248,9 @@
         flex-direction: column;
     }
 
-    .decision__title {
-        text-align: center;
-    }
+    
 
     .decision__description {
-        text-align: center;
         margin-bottom: 50px;
     }
 }
@@ -354,7 +325,7 @@
         text-align: center;
     }
 
-    .social__icons svg {
+    .social__icons a {
         margin: 0 10px;
     }
 }
