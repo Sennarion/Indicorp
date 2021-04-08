@@ -51,7 +51,7 @@
 	font-weight: 600;
 	color: #737373;
 	margin-right: 11px;
-	transition: 0.2s color ease-in-out;
+	transition: 0.3s color ease-in-out;
 }
 
 .header-nav__link:hover {
@@ -115,11 +115,11 @@
 .header__burger span::before,
 .header__burger span::after {
 	content: '';
-	transition: 0.4s;
+	transition: 0.3s;
 }
 
 .header__burger span {
-	transition: 0.2s;
+	transition: 0.3s;
 }
 
 .header__burger span::before {
@@ -225,7 +225,7 @@
 	background: #FFA62B;
 	color: #fff;
 	border: 1px solid transparent;
-	transition: 0.2s box-shadow ease-in-out;
+	transition: 0.3s box-shadow ease-in-out;
 }
 
 .active__btn:hover {
@@ -235,7 +235,7 @@
 .passive__btn {
 	color: #00A0C1;
 	border: 1px solid #00A0C1;
-	transition: 0.2s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 
 .passive__btn:hover {
@@ -669,7 +669,7 @@
 	padding: 10px 15px;
 	border: 1px solid #FFA62B;
 	border-radius: 5px;
-	transition: 0.2s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 
 .contact__submit:hover {
@@ -718,7 +718,6 @@
 }
 
 .decision__description {
-	text-align: center;
 	font-size: 14px;
 	line-height: 20px;
 	font-weight: 500;
@@ -734,7 +733,7 @@
 	padding: 15px 40px;
 	background: #FFA62B;
 	border-radius: 5px;
-	transition: 0.2s ease-in-out;
+	transition: 0.3s ease-in-out;
 }
 
 .decision__button:hover {

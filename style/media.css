@@ -240,6 +240,10 @@
         align-items: center;
     }
 
+    .decision__description {
+        text-align: center;
+    }
+
     .contact {
         width: 100%;
     }
@@ -257,7 +261,7 @@
 
 
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 610px) {
     .header__nav {
         display: none;
     }
@@ -292,6 +296,10 @@
     .sponsor {
         margin: 0 0 60px 0;
         width: 100%;
+    }
+
+    .sponsor img {
+        width: 40%;
     }
 
     .sponsor:last-child {
